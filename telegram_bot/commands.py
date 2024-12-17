@@ -9,5 +9,5 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("I am SABPataBot, Ask me anything.")
 
 
-async def custom_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("This is a custom command.")
+# async def custom_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+#     await update.message.reply_text("This is a custom command.")
